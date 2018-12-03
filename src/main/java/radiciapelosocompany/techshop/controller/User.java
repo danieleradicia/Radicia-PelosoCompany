@@ -5,7 +5,7 @@ public class User {
 	private String cognome;
 	private String username;
 	private String password;
-	private char sesso;
+	private String sesso;
 
 	public String getNome() {
 		return nome;
