@@ -5,6 +5,7 @@ public class User {
 	private String cognome;
 	private String username;
 	private String password;
+	private char sesso;
 
 	public String getNome() {
 		return nome;
@@ -38,10 +39,18 @@ public class User {
 		this.password = password;
 	}
 
+	public char getSesso() {
+		return sesso;
+	}
+
+	public void setSesso(char sesso) {
+		this.sesso = sesso;
+	}
+
 	@Override
 	public String toString() {
 		return "User [nome=" + nome + ", cognome=" + cognome + ", username=" + username + ", password=" + password
-				+ "]";
+				+ ", sesso=" + sesso + "]";
 	}
 
 }
